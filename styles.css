@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.cta {
+    margin-left: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffdb4d;
+}
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    /* Add your header styles here */
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url("hero-background1.jpg");
+    background-color: #222;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff4d4d;
+  }
+  
+  /* Footer styles */
+  footer {
+    /* Add your footer styles here */
+  }
+
+  
+  #rentals {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .rental-card {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .rental-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .rental-info {
+    flex: 1;
+  }
+  
+  .rental-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .rental-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .rental-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rental-button:hover {
+    background-color: #ff3300;
+  }
+
+  /* AI Guide Section */
+#ai-guide {
+    background-image: url("ai-background.jpg");
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  .ai-guide-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ai-guide-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .ai-guide-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .ai-guide-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .ai-guide-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff4c4c;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .ai-guide-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .ai-guide-text,
+    .ai-guide-image {
+      flex: none;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+  /* Dark theme styles */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  #about-us {
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .contact-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    color: #4CAF50;
+}
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
